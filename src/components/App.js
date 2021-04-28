@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import youtube from "../apis/youtube";
 import SearchBar from "./SearchBar";
+import VideoList from "./VideoList";
 
 
 
@@ -23,7 +24,7 @@ const App=() =>{
   return (
     <div className="ui container">
       <SearchBar onTermSubmit={onTermSubmit}/>
-      I have {videos.length} videos rendered
+      <VideoList videos={videos}/>
     </div>
   );
 }
