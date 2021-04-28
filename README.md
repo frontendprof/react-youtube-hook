@@ -15,3 +15,4 @@
 2. SearchBar component
 3. VideoList component
 4. VideoItem component
+5. VideoDetail component
