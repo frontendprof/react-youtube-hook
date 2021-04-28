@@ -13,4 +13,5 @@
 
 1. App component
 2. SearchBar component
-3.
+3. VideoList component
+4. VideoItem component

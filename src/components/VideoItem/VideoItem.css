@@ -1,7 +1,7 @@
 
 .video-item{
     display: flex !important;
-    align-items: center i !important;
+    align-items: center !important;
     cursor: pointer;
 }
 
